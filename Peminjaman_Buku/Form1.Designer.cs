@@ -62,6 +62,7 @@ namespace Peminjaman_Buku
             this.cb16plus = new System.Windows.Forms.CheckBox();
             this.cb12plus = new System.Windows.Forms.CheckBox();
             this.cb7plus = new System.Windows.Forms.CheckBox();
+            this.btReset = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.epAttention)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.epWarning)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.epCorrect)).BeginInit();
@@ -231,7 +232,7 @@ namespace Peminjaman_Buku
             // 
             // btSimpan
             // 
-            this.btSimpan.Location = new System.Drawing.Point(179, 464);
+            this.btSimpan.Location = new System.Drawing.Point(124, 464);
             this.btSimpan.Name = "btSimpan";
             this.btSimpan.Size = new System.Drawing.Size(75, 23);
             this.btSimpan.TabIndex = 18;
@@ -352,12 +353,23 @@ namespace Peminjaman_Buku
             this.cb7plus.UseVisualStyleBackColor = true;
             this.cb7plus.CheckedChanged += new System.EventHandler(this.cb7plus_CheckedChanged);
             // 
+            // btReset
+            // 
+            this.btReset.Location = new System.Drawing.Point(231, 464);
+            this.btReset.Name = "btReset";
+            this.btReset.Size = new System.Drawing.Size(75, 23);
+            this.btReset.TabIndex = 27;
+            this.btReset.Text = "Reset";
+            this.btReset.UseVisualStyleBackColor = true;
+            this.btReset.Click += new System.EventHandler(this.btReset_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(425, 521);
+            this.Controls.Add(this.btReset);
             this.Controls.Add(this.tbNoHP);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -429,6 +441,7 @@ namespace Peminjaman_Buku
         private System.Windows.Forms.CheckBox cb12plus;
         private System.Windows.Forms.CheckBox cb7plus;
         private System.Windows.Forms.CheckBox cb16plus;
+        private System.Windows.Forms.Button btReset;
     }
 }
 

@@ -346,5 +346,36 @@ namespace Peminjaman_Buku
                 epAttention.SetError(tbNoHP, "Input Hanya Boleh Huruf");
             }
         }
+
+        private void btReset_Click(object sender, EventArgs e)
+        {
+            SystemSounds.Exclamation.Play();
+            MessageBox.Show("Form telah di reset.", "Peringatan",
+                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            foreach (Control clear in Controls)
+            {
+                if (clear is TextBox)
+                {
+                    clear.Text = "";
+                    if (clear is CheckBox)
+                    {
+                        ((CheckBox)clear).Checked = false;
+                        if (clear is ComboBox)
+                        {
+                            clear.Text = string.Empty;
+                            if (clear is RichTextBox)
+                            {
+                                clear.Text = string.Empty;
+                                if (clear is RadioButton)
+                                {
+                                    ((RadioButton)clear).Checked = false;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            this.Size = new Size(441, 369);
         }
+    }
     }
