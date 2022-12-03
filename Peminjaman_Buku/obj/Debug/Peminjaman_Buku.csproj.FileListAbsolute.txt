@@ -1,0 +1,11 @@
+C:\Users\ADAM GHAFARA\source\repos\uts\Peminjaman_Buku\bin\Debug\Peminjaman_Buku.exe.config
+C:\Users\ADAM GHAFARA\source\repos\uts\Peminjaman_Buku\bin\Debug\Peminjaman_Buku.exe
+C:\Users\ADAM GHAFARA\source\repos\uts\Peminjaman_Buku\bin\Debug\Peminjaman_Buku.pdb
+C:\Users\ADAM GHAFARA\source\repos\uts\Peminjaman_Buku\obj\Debug\Peminjaman_Buku.csproj.AssemblyReference.cache
+C:\Users\ADAM GHAFARA\source\repos\uts\Peminjaman_Buku\obj\Debug\Peminjaman_Buku.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADAM GHAFARA\source\repos\uts\Peminjaman_Buku\obj\Debug\Peminjaman_Buku.Form1.resources
+C:\Users\ADAM GHAFARA\source\repos\uts\Peminjaman_Buku\obj\Debug\Peminjaman_Buku.Properties.Resources.resources
+C:\Users\ADAM GHAFARA\source\repos\uts\Peminjaman_Buku\obj\Debug\Peminjaman_Buku.csproj.GenerateResource.cache
+C:\Users\ADAM GHAFARA\source\repos\uts\Peminjaman_Buku\obj\Debug\Peminjaman_Buku.csproj.CoreCompileInputs.cache
+C:\Users\ADAM GHAFARA\source\repos\uts\Peminjaman_Buku\obj\Debug\Peminjaman_Buku.exe
+C:\Users\ADAM GHAFARA\source\repos\uts\Peminjaman_Buku\obj\Debug\Peminjaman_Buku.pdb
